@@ -8,7 +8,7 @@
         {
             ICreditManager needCreditManager = new NeedCreditManager();           //Bu kısım
             ICreditManager vehicleCreditManager = new VehicleCreditManager();    //ekranda
-            ICreditManager housingCreditManager = new HousingCreditManager();   // gözdüken yer.
+            ICreditManager housingCreditManager = new HousingCreditManager();   // gözüken yer.
             ICreditManager artisanCreditManager = new ArtisanCreditManager();
 
             ILoggerService dataLoggerService = new DatabaseLoggerService();
